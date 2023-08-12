@@ -37,7 +37,7 @@ pipeline {
       environment {
 
         
-        DOCKER_IMAGE = "ashaik65/argocd-app:${BUILD_NUMBER}"
+        DOCKER_IMAGE = "prakashupale/argocd-app:${BUILD_NUMBER}"
 
         REGISTRY_CREDENTIALS = credentials('docker-cred')
       }
